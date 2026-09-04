@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# App data (large, user-generated)
+sessions/
+timelapses/
+models/
+
+# YOLO weights (auto-downloaded / auto-exported on first run)
+yolov8n.pt
+yolov8n-pose.pt
+yolov8n.onnx
+yolov8n-pose.onnx
+
+# Editor/OS
+.vscode/
+.idea/
+Thumbs.db
